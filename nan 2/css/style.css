@@ -1,0 +1,196 @@
+body{
+    background-image:  linear-gradient(rgba(41, 38, 41, 0.85), rgba(84, 62, 88, 0.58)), url(../img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    color: #fff;
+}
+/*.mytable{
+    color: #ffffff;
+    background-image: linear-gradient(rgba(5, 5, 5, 0.4), rgba(5, 5, 5, 0.4)) ;
+} */
+.background {
+    background-image: linear-gradient(rgba(41, 38, 41, 0.5), rgba(84, 62, 88, 0.5));
+    color: #fff;
+}
+.background h4{
+    font-size: 200%;
+}
+@media(max-width: 770px) {
+    .background h4{
+        font-size: 30px;
+    }
+}
+
+ .navbar{
+       background: linear-gradient(0deg,#82829e,#555356)!important; 
+}
+
+.container .box{
+  width: 300px;
+  float: left; 
+  margin: 13px;
+  padding: 15px;
+  text-align: center;
+ border: 1px solid white;
+
+}
+
+.pro{
+  box-shadow: 6px 6px 6px black;
+  color: white;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.letters{
+box-shadow: 6px 6px 6px black;
+}
+
+/*Fade all the DIV when user hovers on any div*/
+.container:hover .box1{
+  zoom: 1;
+  filter: alpha(opacity=45);
+  -webkit-transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -ms-transition: opacity .5s ease-in-out;
+  -o-transition: opacity .5s ease-in-out;
+  transition: opacity .5s ease-in-out;
+}
+
+
+.profile{
+    width: 80%;
+    height: 200px;
+}
+.container .box1{
+  width: 250px;
+  float: left; 
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+}
+.container .box2{
+  width: 250px;
+  float: left; 
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Outline Out */
+.hvr-outline-out {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+}
+.hvr-outline-out:before {
+  content: '';
+  position: absolute;
+  border: #e1e1e1 solid 4px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: top, right, bottom, left;
+  transition-property: top, right, bottom, left;
+}
+.hvr-outline-out:hover:before, .hvr-outline-out:focus:before, .hvr-outline-out:active:before {
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -8px;
+}
+.ml10 {
+  position: relative;
+  font-weight: 400;
+  font-size: 30px;
+  margin-left: 35%;
+  margin-top: 30px
+}
+
+.ml10 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml10 .letter {
+  display: inline-block;
+  line-height: 100px;
+  transform-origin: 0 0;
+}
+/* Float */
+.hvr-float {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-float:hover, .hvr-float:focus, .hvr-float:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+.profiles{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+/* Icon Pulse Grow */
+@-webkit-keyframes hvr-icon-pulse-grow {
+  to {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+}
+@keyframes hvr-icon-pulse-grow {
+  to {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+}
+.hvr-icon-pulse-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-icon-pulse-grow .hvr-icon {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-icon-pulse-grow:hover .hvr-icon, .hvr-icon-pulse-grow:focus .hvr-icon, .hvr-icon-pulse-grow:active .hvr-icon {
+  -webkit-animation-name: hvr-icon-pulse-grow;
+  animation-name: hvr-icon-pulse-grow;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+.testimonial-card{
+background: white !important;
+color: black !important;
+
+}

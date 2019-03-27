@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>NaN</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar">
+    <img src="logo.png">
+    <div class="user-area dropdown float-right">
+      <a style="border-radius: 50px;color: black" href="#"><i class="fa fa-power-off"></i> se deconnecter</a>
+  </div>
+        
+  </nav>
+  <div>
+    <!-- Card -->
+  <h1 class="ml10">
+  <span class="text-wrapper">
+    <span class="letters"  style="box-shadow: 6px 6px 6px black">NOTES DES PROJETS</span>
+  </span>
+</h1>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md">
+      <table class="table table-bordered mytable "  style="background: white;">
+        <thead>
+        <tr>
+          <th scope="col">Photo étudiant <i class="fas fa-user-alt"></i></th>
+          <th scope="col">Nom et prénom étudiant <i class="fas fa-user-alt"></i></th>
+          <th scope="col">Github <i class="fab fa-github"></i></th>
+          <th scope="col">Youtube <i class="fab fa-youtube red-text"></i></th>
+          <th scope="col">Note <i class="fas fa-book-open"></i></th>
+          <th scope="col">Noté par... <i class="far fa-user-circle"></i></th>
+          <th scope="col">Action <i class="fas fa-skating"></i></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <th scope="row"><a href="profile_view.html"><img class="profiles mr-3" src="img/profile.jpg" alt=""></a>  </th>
+
+         <td style="text-align: center;">Mark</td>
+         <td style="text-align: center;">Mark</td>
+          <td style="text-align: center;">Otto</td>
+          <td style="text-align: center;">Otto</td>
+          <td style="text-align: center;">Otto</td>
+          <td style="text-align: center;">
+            <a data-toggle="modal" data-target="#modalLoginForm" class="ml-3  hvr-icon-pulse-grow" href="#"> Ajouter Note <i class="fa fa-plus-circle hvr-icon"></i></a></td>
+        </tr>
+         <tr>
+          <th scope="row"><a href="profile_view.html"><img class="profiles mr-3" src="img/profile.jpg" alt="" ></a>  </th>
+
+         <td style="text-align: center;">Mark</td>
+         <td style="text-align: center;">Mark</td>
+          <td style="text-align: center;">Otto</td>
+          <td style="text-align: center;">Otto</td>
+          <td style="text-align: center;">Otto</td>
+          <td style="text-align: center;">
+            <a data-toggle="modal" data-target="#modalLoginForm" class="ml-3  hvr-icon-pulse-grow" href="#"> Ajouter Note <i class="fa fa-plus-circle hvr-icon"></i></a></td>
+        </tr>
+
+        <tr>
+          <th scope="row"><a href="profile_view.html"><img class="profiles mr-3" src="img/profile.jpg" alt="" ></a>  </th>
+
+         <td style="text-align: center;">Mark</td>
+         <td style="text-align: center;">Mark</td>
+          <td style="text-align: center;">Otto</td>
+          <td style="text-align: center;">Otto</td>
+          <td style="text-align: center;">Otto</td>
+          <td style="text-align: center;">
+            <a data-toggle="modal" data-target="#modalLoginForm" class="ml-3  hvr-icon-pulse-grow" href="#"> Ajouter Note <i class="fa fa-plus-circle hvr-icon"></i></a></td>
+        </tr>
+
+        <tr>
+          <th scope="row"><a href="profile_view.html"><img class="profiles mr-3" src="img/profile.jpg" alt="" ></a>  </th>
+
+         <td style="text-align: center;">Mark</td>
+         <td style="text-align: center;">Mark</td>
+          <td style="text-align: center;">Otto</td>
+          <td style="text-align: center;">Otto</td>
+          <td style="text-align: center;">Otto</td>
+          <td style="text-align: center;">
+            <a data-toggle="modal" data-target="#modalLoginForm" class="ml-3  hvr-icon-pulse-grow" href="#"> Ajouter Note <i class="fa fa-plus-circle hvr-icon"></i></a></td>
+        </tr>
+        
+        </tbody>
+      </table>
+
+      <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+           aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header text-center">
+              <h4 class="modal-title w-100 font-weight-bold" style="color: black"><i class="fas fa-desktop blue-text"></i> Note projet <i class="fas fa-desktop blue-text"></i></h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body mx-3">
+              <div class="md-form mb-5">
+                <i class="fas fa-award prefix blue-text"></i>
+                <input type="email" id="defaultForm-email" class="form-control validate">
+                <label data-error="wrong" data-success="right" for="defaultForm-email">Note</label>
+              </div>
+
+              <div class="md-form mb-4">
+                <i class="fas fa-pencil prefix grey-text"></i>
+                <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
+                <label data-error="wrong" data-success="right" for="form8">Commentaire</label>
+              </div>
+
+            </div>
+            <div class="modal-footer d-flex justify-content-center">
+              <button class="btn btn-default">Valider</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    
+  </div>
+
+
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+  
+</body>
+
+</html>
